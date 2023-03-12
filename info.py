@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "5645748028:AAFZAi0RibJlt2kEXJ1jVTMu8BKnuji
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://t.me/c/1613135994/5653')).split()
+PICS = (environ.get('PICS', 'https://tg.kctg.workers.dev/0:/photo_2023-03-12_13-30-05_7209653356996838400.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5076254266').split()]
